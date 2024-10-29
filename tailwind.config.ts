@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { Montserrat } from "next/font/google";
 
 const config: Config = {
   content: [
@@ -12,6 +13,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+        heading: ["Montserrat"],
+        paragraph:["Montserrat"],
+        button:["Montserrat"]
+        
+      }
     },
   },
   plugins: [],
